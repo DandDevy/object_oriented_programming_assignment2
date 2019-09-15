@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ex1Cars.view.Main</OriginalElement>
+  <nodes>
+    <node x="995.4925685425685" y="1067.0">ex1Cars.controller.CarListController</node>
+    <node x="655.5077200577201" y="548.0">ex1Cars.model.MyCarUtil.SortMyCarListByMillage</node>
+    <node x="0.0" y="524.0">ex1Cars.controller.CarFileController</node>
+    <node x="921.5077200577201" y="535.5">util.SortCarListByNature</node>
+    <node x="1143.50772005772" y="535.5">util.SortCarListByYear</node>
+    <node x="795.9681818181818" y="697.0">ex1Cars.model.CarList</node>
+    <node x="695.9681818181818" y="0.0">util.Car</node>
+    <node x="677.7410533910534" y="1442.0">ex1Cars.view.Main</node>
+    <node x="673.9681818181818" y="346.0">ex1Cars.model.MyCar</node>
+    <node x="370.64105339105345" y="1292.0">ex1Cars.view.ContentForGUI</node>
+    <node x="315.0" y="536.0">ex1Cars.controller.CarSerializationController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ex1Cars.controller.CarListController" target="ex1Cars.model.MyCar">
+      <point x="95.99999999999994" y="-87.5" />
+      <point x="1283.4925685425685" y="1047.0" />
+      <point x="1350.00772005772" y="1047.0" />
+      <point x="1350.00772005772" y="504.0" />
+      <point x="968.2681818181818" y="504.0" />
+      <point x="130.79999999999995" y="64.0" />
+    </edge>
+    <edge source="ex1Cars.view.ContentForGUI" target="ex1Cars.model.CarList">
+      <point x="-43.16666666666663" y="-40.0" />
+      <point x="586.4743867243868" y="1272.0" />
+      <point x="562.7410533910534" y="1272.0" />
+      <point x="562.7410533910534" y="1037.0" />
+      <point x="817.5681818181819" y="1037.0" />
+      <point x="-86.39999999999998" y="160.0" />
+    </edge>
+    <edge source="ex1Cars.controller.CarSerializationController" target="ex1Cars.model.CarList">
+      <point x="85.71428571428572" y="39.5" />
+      <point x="500.7142857142857" y="657.0" />
+      <point x="863.4681818181818" y="657.0" />
+      <point x="-40.5" y="-160.0" />
+    </edge>
+    <edge source="ex1Cars.controller.CarFileController" target="ex1Cars.model.MyCar">
+      <point x="0.0" y="-51.5" />
+      <point x="147.5" y="504.0" />
+      <point x="706.6681818181819" y="504.0" />
+      <point x="-130.79999999999995" y="64.0" />
+    </edge>
+    <edge source="ex1Cars.view.Main" target="ex1Cars.model.CarList">
+      <point x="78.75" y="-39.5" />
+      <point x="846.4910533910534" y="1422.0" />
+      <point x="1389.9925685425685" y="1422.0" />
+      <point x="1389.9925685425685" y="1037.0" />
+      <point x="990.3681818181818" y="1037.0" />
+      <point x="86.39999999999998" y="160.0" />
+    </edge>
+    <edge source="ex1Cars.model.CarList" target="util.SortCarListByNature">
+      <point x="67.5" y="-160.0" />
+      <point x="971.4681818181818" y="667.0" />
+      <point x="1022.5077200577201" y="667.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="ex1Cars.model.MyCarUtil.SortMyCarListByMillage" target="ex1Cars.model.MyCar">
+      <point x="0.0" y="-27.5" />
+      <point x="-65.39999999999998" y="64.0" />
+    </edge>
+    <edge source="ex1Cars.view.Main" target="ex1Cars.view.ContentForGUI">
+      <point x="-33.75" y="-39.5" />
+      <point x="733.9910533910534" y="1402.0" />
+      <point x="500.14105339105345" y="1402.0" />
+      <point x="-129.5" y="40.0" />
+    </edge>
+    <edge source="ex1Cars.view.ContentForGUI" target="ex1Cars.controller.CarListController">
+      <point x="215.83333333333337" y="-40.0" />
+      <point x="845.4743867243868" y="1272.0" />
+      <point x="1139.4925685425685" y="1272.0" />
+      <point x="-48.0" y="87.5" />
+    </edge>
+    <edge source="ex1Cars.model.CarList" target="util.SortCarListByYear">
+      <point x="94.5" y="-160.0" />
+      <point x="998.4681818181818" y="677.0" />
+      <point x="1241.50772005772" y="677.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="ex1Cars.model.CarList" target="ex1Cars.controller.CarSerializationController">
+      <point x="-94.5" y="-160.0" />
+      <point x="809.4681818181818" y="677.0" />
+      <point x="443.57142857142856" y="677.0" />
+      <point x="28.571428571428555" y="39.5" />
+    </edge>
+    <edge source="ex1Cars.model.CarList" target="ex1Cars.model.MyCar">
+      <point x="13.5" y="-160.0" />
+      <point x="917.4681818181818" y="677.0" />
+      <point x="900.0077200577201" y="677.0" />
+      <point x="900.0077200577201" y="504.0" />
+      <point x="837.4681818181818" y="504.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="ex1Cars.model.MyCar" target="util.Car">
+      <point x="-81.75" y="-64.0" />
+      <point x="755.7181818181818" y="321.0" />
+      <point x="766.7181818181818" y="321.0" />
+      <point x="-70.75" y="148.0" />
+    </edge>
+    <edge source="ex1Cars.view.Main" target="ex1Cars.controller.CarListController">
+      <point x="33.75" y="-39.5" />
+      <point x="801.4910533910534" y="1402.0" />
+      <point x="1235.4925685425685" y="1402.0" />
+      <point x="48.0" y="87.5" />
+    </edge>
+    <edge source="ex1Cars.view.ContentForGUI" target="ex1Cars.controller.CarSerializationController">
+      <point x="-215.83333333333326" y="-40.0" />
+      <point x="413.8077200577202" y="1272.0" />
+      <point x="386.2339105339106" y="1272.0" />
+      <point x="-28.571428571428612" y="39.5" />
+    </edge>
+    <edge source="ex1Cars.view.Main" target="ex1Cars.controller.CarSerializationController">
+      <point x="-56.25" y="-39.5" />
+      <point x="711.4910533910534" y="1412.0" />
+      <point x="317.71818181818185" y="1412.0" />
+      <point x="317.71818181818185" y="677.0" />
+      <point x="357.85714285714283" y="677.0" />
+      <point x="-57.14285714285717" y="39.5" />
+    </edge>
+    <edge source="ex1Cars.model.CarList" target="ex1Cars.model.MyCarUtil.SortMyCarListByMillage">
+      <point x="-13.5" y="-160.0" />
+      <point x="890.4681818181818" y="647.0" />
+      <point x="772.5077200577201" y="647.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="ex1Cars.controller.CarListController" target="ex1Cars.model.CarList">
+      <point x="-96.0" y="-87.5" />
+      <point x="1091.4925685425685" y="1047.0" />
+      <point x="947.1681818181819" y="1047.0" />
+      <point x="43.200000000000045" y="160.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.44908220271348775" x="480.69667590027666" y="786.0067531544338" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
